@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IndexCardAppLib\IndexCardAppLib.csproj" />
+    <ProjectReference Include="..\Logic\Logic.csproj" />
   </ItemGroup>
 
   <ItemGroup>

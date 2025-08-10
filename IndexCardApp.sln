@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36310.24 d17.14
+VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexCardAppUI", "IndexCardAppUI\IndexCardAppUI.csproj", "{6C80A0B3-A10D-4102-B31C-CC82BF9869E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{6C80A0B3-A10D-4102-B31C-CC82BF9869E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexCardAppLib", "IndexCardAppLib\IndexCardAppLib.csproj", "{C20FC2D7-F49E-4836-92D7-855EDA82CC5D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{C20FC2D7-F49E-4836-92D7-855EDA82CC5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexCardAppTest", "IndexCardAppTest\IndexCardAppTest.csproj", "{E379A79B-BAB1-4C5A-A992-80BF5ABF4B9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{E379A79B-BAB1-4C5A-A992-80BF5ABF4B9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{FE7D3A05-E1E9-46F6-BF2E-71E2FF2310ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{7174DA5D-3AD9-4D84-8364-F3847CE4BB25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{E379A79B-BAB1-4C5A-A992-80BF5ABF4B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E379A79B-BAB1-4C5A-A992-80BF5ABF4B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E379A79B-BAB1-4C5A-A992-80BF5ABF4B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE7D3A05-E1E9-46F6-BF2E-71E2FF2310ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE7D3A05-E1E9-46F6-BF2E-71E2FF2310ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE7D3A05-E1E9-46F6-BF2E-71E2FF2310ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE7D3A05-E1E9-46F6-BF2E-71E2FF2310ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7174DA5D-3AD9-4D84-8364-F3847CE4BB25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7174DA5D-3AD9-4D84-8364-F3847CE4BB25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7174DA5D-3AD9-4D84-8364-F3847CE4BB25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7174DA5D-3AD9-4D84-8364-F3847CE4BB25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
